@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+.container{
+    border: 2px solid white;
+    width: 90%;
+    padding: 30px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    border: 10px blue;
+    background-color: blueviolet;
+    margin:1px 1px;
+    
+}
+.information{
+    text-align: center;
+}
+
+.d{
+    display: flex;
+}
+

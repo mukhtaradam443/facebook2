@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid blue;
+    display: flex;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.d{
+    flex: 1;
+}
+
+.photo img{
+    width: 170px;
+    height:200px ;
+    border-radius:50% ;
+}
+
+.details{
+    flex: 2;
+    
+}
+
+.details h2 span{
+    margin: 8px 10px;
+    text-decoration: underline red;
+    
+}
+
+.photo label{
+    border: 1px solid blue;
+    background-color: ;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+
+
+.details p span{
+    color: red;
+    
+}
+
+.details p{
+    padding: 10px ;
+    color: burlywood;
+    word-spacing: 5px 10px;
+    
+}
+
+.details p{
+    justify-items: 20px;
+}
+
+
+.details h4{
+    margin: 10px 15px;
+    font-size: large;
+}

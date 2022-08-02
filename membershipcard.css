@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Satisfy', cursive;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    margin: 50px auto;
+    padding: 40px;
+    position: relative;
+    border-radius: 8px;
+}
+.editContainer {
+    height: 50px;
+}
+
+.edit {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.edit i {
+    font-size: 25px;
+}
+
+.details {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.text h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.text p {
+    margin-top: 10px;
+}
+
+
+.membership {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.membership h2, .connect h2 {
+    color: gray;
+}
+
+.membership p {
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    font-size: 14px;
+    padding: 5px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.connect {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contentItems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.socialIcons {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcons i {
+    font-size: 25px;
+    color: gray;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
